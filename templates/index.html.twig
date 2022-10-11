@@ -1,3 +1,11 @@
-<h1>
-    {{ dump(title) }}
-</h1>
+{% extends "base.html.twig" %}
+
+{% block title %}
+    Movies Page
+{% endblock %}
+
+{% block body %}
+    <h1>
+        {{ title }}
+    </h1>
+{% endblock %}
